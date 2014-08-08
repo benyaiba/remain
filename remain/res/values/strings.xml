@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mr.Remain</string>
+    <string name="title_item_detail">Item Detail</string>
+    
+    <string name="yuefen">月份</string>
+    <string name="jintianriqi">今天</string>
+    <string name="benyueshengyutianshu">本月剩余天数</string>
+	<string name="shengyucishu">剩余次数</string>
+	<string name="meirishiyongshu">每日使用数</string>
+</resources>

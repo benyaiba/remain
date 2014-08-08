@@ -1,0 +1,74 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_detail_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.remain.ItemDetailActivity"
+    tools:ignore="MergeRootFrame" >
+
+<LinearLayout android:orientation="vertical" 
+                  android:layout_width="fill_parent" 
+                  android:layout_height="fill_parent"
+                  android:layout_margin="20dp"> 
+                  
+<TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="12sp" 
+          android:text="@string/yuefen" />
+<TextView
+          android:id="@+id/yuefen"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="22sp" 
+          android:ems="10" />
+<TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="12sp" 
+          android:text="@string/jintianriqi" />
+<TextView
+          android:id="@+id/jintianriqi"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="22sp" 
+          android:ems="10" />
+<TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="12sp" 
+          android:text="@string/benyueshengyutianshu" />
+<TextView
+          android:id="@+id/benyueshengyutianshu"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="22sp" 
+          android:ems="10" />
+<TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="12sp" 
+          android:text="@string/shengyucishu" />
+<TextView
+          android:id="@+id/shengyucishu"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="22sp" 
+          android:ems="10" />
+<TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="12sp" 
+          android:text="@string/meirishiyongshu" />
+<TextView
+          android:id="@+id/meirishiyongshu"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="22sp" 
+          android:ems="10" />
+
+
+
+</LinearLayout>
+
+</FrameLayout>
